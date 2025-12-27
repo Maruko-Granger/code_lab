@@ -89,11 +89,11 @@ function bindButtons() {
         });
     }
     
-    // 绑定确认按钮（跳转到home页面）
+    // 绑定确认按钮（跳转到checkin页面）
     const confirmBtn = document.getElementById('confirmBtn');
     if (confirmBtn) {
         confirmBtn.addEventListener('click', () => {
-            window.location.href = 'home.html';
+            window.location.href = 'checkin.html';
         });
     }
 }
@@ -231,7 +231,7 @@ function displayDietSummary(summary) {
         </div>
         
         <div class="confirm-button-container">
-            <button id="confirmBtn" class="btn btn-confirm">确认并进入主页</button>
+            <button id="confirmBtn" class="btn btn-confirm">确认并开始打卡</button>
         </div>
     `;
     
@@ -253,7 +253,7 @@ function displaySimpleSummary(aiSummary) {
         </div>
         
         <div class="confirm-button-container">
-            <button id="confirmBtn" class="btn btn-confirm">确认并进入主页</button>
+            <button id="confirmBtn" class="btn btn-confirm">确认并开始打卡</button>
         </div>
     `;
     

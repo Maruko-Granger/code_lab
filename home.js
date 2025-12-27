@@ -4,9 +4,6 @@
 
 // 页面加载时初始化
 document.addEventListener('DOMContentLoaded', () => {
-    // 清空所有存储的医嘱数据
-    clearPrescriptionData();
-    
     // 加载医嘱历史
     loadPrescriptionHistory();
     

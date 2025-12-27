@@ -162,7 +162,7 @@ function bindEvents() {
     const goToDietBtn = document.getElementById('goToDietBtn');
     if (goToDietBtn) {
         goToDietBtn.addEventListener('click', () => {
-            window.location.href = 'home.html';
+            window.location.href = 'diet.html';
         });
     }
 }
